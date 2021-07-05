@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="@color/bgcard"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="25dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="INDONESIA MOUNTAIN"
+                    android:textColor="@color/ungu"
+                    android:fontFamily="@font/quicksand"
+                    android:textAlignment="center"
+                    android:textSize="23dp"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="version 1.0"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/quicksand"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/grenn"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Indonesia Mountain is the apps\n to search for mountains in\nIndonesia and makes it easier\nfor climbers to find\ntheir location"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/quicksand"
+                    android:textAlignment="center"
+                    android:textSize="17dp"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="develop by: ShegiDev"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/grenn"
+                    android:fontFamily="@font/quicksand"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/btn_dilaogok"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginTop="10dp"
+                    android:text="ok"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/quicksand"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

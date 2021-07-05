@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProvActivity"
+    android:background="@color/background"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativdaerah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/txt_namaprov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Daerah"
+            android:textColor="@color/putih"
+            android:fontFamily="@font/quicksand"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcl_viewprov"
+        android:layout_below="@id/relativdaerah"
+        android:layout_above="@id/adViewprov"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewprov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/idbanner">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Indonesia Mountain</string>
+    <string name="register"><u>register here</u></string>
+    <string name="kata1">Everyones weakness is to beat his ego.\nTherefore, try to go up the mountain\nthen you will learn to beat it.</string>
+    <string name="kata2">Kelemahan setiap orang adalah\nMengalahkan egonya. Oleh karena itu,\nCobalah naik ke gunung maka kau\nakan belajar untuk mengalahkannya \n</string>
+
+    <string name="dashboard">list mountain</string>
+    <string name="about">profile</string>
+    <string name="home">home</string>
+
+    <string name="idads">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="idbanner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="idnative">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="idnativeadvence">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string-array name="prov">
+        <item>Aceh</item>
+        <item>Bali</item>
+        <item>Lampung</item>
+        <item>Riau</item>
+        <item>Jawa Timur</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Kalimantan Timur</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Utara</item>
+        <item>Sumatra Utara</item>
+        <item>Sumatra Selatan</item>
+        <item>Sulawesi Selatan</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Utara</item>
+        <item>Papua</item>
+    </string-array>
+
+    <string-array name="mdpl">
+        <item>100 - 1000</item>
+        <item>1000 - 2000</item>
+        <item>2000 - 3000</item>
+        <item>3000 - 4000</item>
+        <item>4000 - 5000</item>
+    </string-array>
+</resources>

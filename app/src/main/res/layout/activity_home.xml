@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/background"
+    >
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomnavigationview"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/bg"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand"
+                android:text="INDONESIA"
+                android:layout_above="@id/idpendaki"
+                android:layout_centerInParent="true"
+                android:textColor="@color/grenn"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/idpendaki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand"
+                android:text="MOUNTAIN"
+                android:layout_centerInParent="true"
+                android:textColor="@color/grenn"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/txt_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand"
+                android:text="search your mountain"
+                android:textColor="@color/putih"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_below="@id/idpendaki"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/txt_totalgunung"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="100"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/quicksand"
+                    android:textColor="@color/grenn"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mountain"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/putih"
+                    android:fontFamily="@font/quicksand"
+                    android:textStyle="bold"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="19"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/quicksand"
+                    android:textColor="@color/grenn"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="province"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/putih"
+                    android:fontFamily="@font/quicksand"
+                    android:textStyle="bold"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeprovensi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rippl"
+            >
+
+            <TextView
+                android:id="@+id/txt_proovensi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="province"
+                android:layout_centerInParent="true"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/putih"
+                android:fontFamily="@font/quicksand"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativmdpl"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rippl"
+            >
+
+            <TextView
+                android:id="@+id/txt_mdpl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="height (mdpl)"
+                android:layout_centerInParent="true"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/putih"
+                android:fontFamily="@font/quicksand"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            >
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kata2"
+                        android:textAlignment="center"
+                        android:textSize="18dp"
+                        android:textColor="@color/putih"
+                        android:fontFamily="@font/quicksand"
+                        android:gravity="center_horizontal" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kata1"
+                        android:textAlignment="center"
+                        android:textSize="18dp"
+                        android:textColor="@color/putih"
+                        android:fontFamily="@font/quicksand"
+                        android:gravity="center_horizontal" />
+
+
+
+                </LinearLayout>
+                </HorizontalScrollView>
+            </ScrollView>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <com.google.android.ads.nativetemplates.TemplateView
+        android:id="@+id/my_template"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_above="@id/bottomnavigationview"
+        app:gnt_template_type="@layout/gnt_small_template_view"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnavigationview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu"
+        android:background="@drawable/rounded"
+        app:itemIconTint="@color/nav_color"
+        app:itemTextColor="@color/nav_color"
+        />
+
+</RelativeLayout>

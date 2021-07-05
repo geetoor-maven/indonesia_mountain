@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuacaActivity"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/txt_city"
+        android:fontFamily="@font/quicksand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/grenn"
+        android:textSize="28dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/putih"
+        android:textSize="90sp"
+        android:layout_above="@id/txt_current_field"
+        />
+
+    <TextView
+        android:id="@+id/txt_current_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/quicksand"
+        android:textColor="@color/putih"
+        android:textSize="70dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_humadity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand"
+        android:layout_below="@id/txt_current_field"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/grenn"
+        />
+
+    <TextView
+        android:id="@+id/txt_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_humadity"
+        android:fontFamily="@font/quicksand"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/grenn"
+        />
+
+    <TextView
+        android:id="@+id/txt_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_pressure"
+        android:fontFamily="@font/quicksand"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/grenn"
+        />
+
+    <TextView
+        android:id="@+id/txt_updated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_details"
+        android:fontFamily="@font/quicksand"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/grenn"
+        />
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewcuaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/idbanner">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</RelativeLayout>

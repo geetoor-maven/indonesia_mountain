@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="30dp"
+    tools:context=".PermissionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID pendaki"
+            android:textColor="@color/putih"
+            android:textSize="25dp"
+            android:fontFamily="@font/quicksand"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txt_lat"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID pendaki"
+            android:textColor="@color/putih"
+            android:textSize="25dp"
+            android:fontFamily="@font/quicksand"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txt_long"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID pendaki"
+            android:textColor="@color/putih"
+            android:textSize="25dp"
+            android:fontFamily="@font/quicksand"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notice Permission"
+            android:textColor="@color/ungu"
+            android:textSize="20dp"
+            android:fontFamily="@font/quicksand"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sebelum anda melanjutkan halaman anda disarankan untuk mengaktifkan terlebih dahulu fitur lokasi"
+            android:gravity="center_horizontal"
+            android:textColor="@color/putih"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/quicksand"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_aktifkanlokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttonlogin_bg"
+        android:text="Lanjutkan"
+        android:textColor="@color/ungu"
+        android:fontFamily="@font/quicksand"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
